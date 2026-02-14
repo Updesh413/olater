@@ -1,0 +1,27 @@
+const mongoose = require('mongoose');
+
+const UserSchema = new mongoose.Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+  phoneNumber: {
+    type: String,
+  },
+  name: {
+    type: String,
+    default: '',
+  },
+  photoUrl: {
+    type: String,
+    default: '',
+  },
+  firebaseId: {
+    type: String,
+    required: true,
+    unique: true,
+  }
+}, { timestamps: true });
+
+module.exports = mongoose.model('User', UserSchema);

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1030317897179",
+    "project_id": "olater-28a72",
+    "storage_bucket": "olater-28a72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030317897179:android:cf141848c4759a0e7ea3fe",
+        "android_client_info": {
+          "package_name": "com.Updesh.Olater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030317897179-lkmrmpuluhd34ipf439u7q6necvtq1ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Updesh.Olater",
+            "certificate_hash": "74106e8d2d4843cd69f4057d42f43d5a15f03155"
+          }
+        },
+        {
+          "client_id": "1030317897179-c1mm28aih77lk0a81h0cd1ng5rpi0817.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5FirCmROURwWOJk4QiPl5UpTCmb01nwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030317897179-c1mm28aih77lk0a81h0cd1ng5rpi0817.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1030317897179-umjqrae7782624c3bfqe5nlku0p62kti.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Updesh.Olater"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
